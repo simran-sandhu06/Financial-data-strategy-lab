@@ -1,14 +1,14 @@
 # AI-Automated Equity Market Data Model
 
 ## 📌 Project Overview
-This project showcases a clean, structured financial data layout designed to track key market performance metrics for major global equities (AAPL, TSLA, MSFT, GOOGL, AMZN). The dataset was engineered using AI automation prompts to establish a standardized schema for daily market analysis.
+This project showcases an advanced financial analysis model designed to track key market performance metrics, technical trends, and automated predictions for major global equities (AAPL, TSLA, MSFT, GOOGL, NVDA, AMZN). The workflow combines Groq AI, Manus, and Excel to produce an investment-grade tracking dashboard.
 
-## 📊 Data Features Tracked
-* **Ticker Metadata:** Symbol, Company Name, and Timestamp.
-* **Price Metrics (OHLC):** Open, High, Low, and Close market pricing.
-* **Volume Analysis:** Total traded volume per asset.
-* **Performance Tracking:** Automated percentage change calculation to capture daily volatility.
+## 📊 Features & Core Metrics
+* **Market Price Tracking:** Clean, internationally formatted Open, High, Low, Close, and Volume (OHLCV) structures.
+* **Technical Trend Indicators:** Integrated 5-Day and 10-Day Simple Moving Averages (SMA_5 / SMA_10) to monitor momentum.
+* **Predictive Analytics:** AI-driven price projection column (`Projected_Next_Close`) indicating next-day direction.
+* **Visual Dashboard:** Automated, clean charts mapping average closure metrics and volume spikes for corporate reviews.
 
 ## 🛠️ Tools Used
-* **Groq AI & Manus:** For data sourcing, automated schema design, and structuring.
-* **Microsoft Excel:** For final data layout, formatting, and alignment optimization.
+* **Groq AI & Manus Agent:** Sourcing quantitative metrics, technical trend indicators, and structural execution.
+* **Microsoft Excel:** Deep formatting, formulation, cross-tab project documentation, and visual chart rendering.
