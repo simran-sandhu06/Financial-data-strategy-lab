@@ -1,49 +1,204 @@
-📊 Financial Data & Strategy Lab
-A dual-asset financial analysis portfolio demonstrating end-to-end data handling—from AI-automated data pipelines to manual strategic trade logging.
+Financial Data & Strategy Lab
 
-This repository is a public showcase of my progression from AI-assisted data fetching to independent, judgment-based financial analysis. It contains two complementary projects that highlight both my technical automation skills and my fundamental understanding of market metrics.
+A personal financial analysis project where I track real stock data, calculate indicators manually, and practice trading decisions — built as I learn data analytics from scratch.
 
-🤖 Project 1: AI-Automated Daily Equity Tracker
-(Primary File: Stock_Data_LIVE.xlsx)
 
-This project leverages AI agents (Groq & Manus) to build a fully automated daily tracking dashboard for major tech equities (AAPL, TSLA, MSFT, GOOGL, NVDA, AMZN).
 
-Key Features:
+Why I Built This
 
-OHLCV Tracking: Internationally formatted Open, High, Low, Close, and Volume structures updated daily.
+I am learning data analytics with a focus on financial markets. Instead of doing practice exercises on fake data, I decided to track real stocks every week. This forces me to understand what the numbers actually mean, not just how to calculate them.
 
-Technical Indicators: Integrated 5-Day & 10-Day Simple Moving Averages (SMA_5 / SMA_10) to monitor price momentum.
 
-Predictive Analytics: AI-driven price projection column (Projected_Next_Close) indicating potential future direction.
 
-Executive Dashboard: Clean, automated charts mapping average closing prices and volume spikes for rapid corporate review.
+What's Inside
 
-Tools Used: Groq AI, Manus Agent, Microsoft Excel (Power Query & Formulation).
+Project 1 — AI-Assisted Daily Tracker (Stock_Data_LIVE.xlsx)
 
-🧠 Project 2: Manual Weekly Strategy Journal
-(Primary File: weekly_stock_tracker_manual.xlsx)
+I used AI tools (Groq and Manus) to automatically collect daily price data for 6 tech stocks: AAPL, TSLA, MSFT, GOOGL, NVDA, AMZN.
 
-This is my personal trading laboratory. Built entirely manually, this project moves beyond raw data to simulate real investment decision-making.
+What the file contains:
 
-Key Features:
 
-Weekly Price Action: Tracking weekly trends (UP/DOWN) for MSFT, AAPL, NVDA, GOOGL, and META.
 
-Calculated Indicators: Manually implemented SMA_3 and SMA_5 to analyze short-term price structures.
 
-The Decision Journal: A structured table simulating "paper trading" that includes:
 
-Entry & Exit Logic: Target Prices and Stop Loss levels.
+Daily Open, High, Low, Close, Volume (OHLCV) for each stock
 
-Technical Triggers: Specific reasons for entering a trade.
 
-Trading Psychology: Tracking my emotional state and documenting lessons learned from each simulated decision.
 
-This journal proves I can do more than calculate numbers—I can interpret them and formulate a strategic hypothesis.
+5-day and 10-day Simple Moving Averages (SMA_5 and SMA_10)
 
-🛠️ Technology & Skills Demonstrated
-Domain	Tools & Skills Applied
-Data Automation	AI Prompt Engineering (Groq/Manus), Data Structuring, Automated Workflows.
-Analytical Modeling	Moving Averages (SMA), Trend Identification, Portfolio Valuation.
-Business Judgment	Decision Journaling, Risk Management (Stop Loss/Target), Psychological tracking.
-Financial Literacy	OHLCV interpretation, Weekly vs. Daily timeframes, Market trend logic.
+
+
+An AI-generated "next close" estimate based on recent trend
+
+Honest note: The data collection and projection in this file is AI-assisted. I designed the structure and decided what to track. I use this file to observe patterns, not as a personal achievement in coding.
+
+
+
+Project 2 — Manual Weekly Strategy Journal (weekly_stock_tracker_manual.xlsx)
+
+This is the file I built completely by hand. I collected all prices manually from Google Finance and wrote every formula myself.
+
+Stocks tracked: MSFT, AAPL, NVDA, GOOGL, META Period: June 1, 2026 – July 3, 2026 (5 weeks)
+
+What I calculated manually:
+
+
+
+
+
+Week-on-Week (WoW) Return — (Close − Open) / Open — how much the stock moved each week
+
+
+
+SMA_3 — average of the last 3 closing prices — shows short-term direction
+
+
+
+SMA_5 — average of all 5 closing prices — shows the overall 5-week trend
+
+
+
+Trend — UP or DOWN based on whether WoW return was positive or negative
+
+What I also track:
+
+
+
+
+
+Decision Journal — every week I write one sentence: what I would do (buy/hold/sell) and why
+
+
+
+Paper Trades — I log simulated trades on Investopedia to test whether my decisions were right
+
+
+
+What I Learned So Far
+
+
+
+
+
+How to read OHLCV data and what each column actually tells you
+
+
+
+How SMA works and why it matters (a rising SMA_3 above SMA_5 often signals short-term momentum)
+
+
+
+Why copying formulas incorrectly breaks calculations (I made this mistake with SMA_5 and fixed it)
+
+
+
+The difference between calculating a number and making a decision about it
+
+
+
+Tools Used
+
+
+
+
+
+
+
+Tool
+
+
+
+What I used it for
+
+
+
+
+
+Microsoft Excel
+
+
+
+All manual calculations and dashboards
+
+
+
+
+
+Google Finance
+
+
+
+Manual price data collection
+
+
+
+
+
+Groq / Manus AI
+
+
+
+Automated data fetching in Project 1
+
+
+
+
+
+DeepSeek
+
+
+
+Checking my Excel files for formula errors
+
+
+
+
+
+Investopedia
+
+
+
+Paper trading to test my decisions
+
+
+
+Current Status
+
+I am on Week 5 of manual tracking. I am also completing the Trump Excel course (currently Video 7 of 26) and will add more advanced Excel features to this project as I learn them.
+
+Next additions planned:
+
+
+
+
+
+Conditional formatting to highlight best/worst performers
+
+
+
+Pivot table summary of all 5 stocks
+
+
+
+A chart showing SMA_3 vs SMA_5 over time
+
+
+
+About Me
+
+I am Simranjit Singh, a B.Sc. student from Batala, India. I am teaching myself data analytics with a focus on financial markets. My goal is to build real skills — not just certificates — and eventually work in fintech or data analytics in Dubai or New Zealand.
+
+I use AI tools as assistants, not as replacements for understanding. If something is in this repo, I can explain it.
+
+
+
+"I would rather show one thing I fully understand than ten things I borrowed."
+
+
+
+Last updated: July 5, 2026
+
+
+
